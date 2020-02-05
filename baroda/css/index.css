@@ -1,0 +1,46 @@
+
+/*///////////////////////////////////////////////
+            Overall Styling
+////////////////////////////////////////////////*/
+body {
+  color: #173669;
+  background-color: #ffffff;
+  overflow-x: hidden;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.active {
+  color: #173669 !important;
+}
+
+/*//////////////////////////////////////////////
+        Landing: Intro Section
+//////////////////////////////////////////////*/
+.intro-section {
+  height: 100vh;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.705),
+      rgba(255, 255, 255, 0.712)
+    ),
+}
+.details-section {
+  height: auto;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.705),
+      rgba(255, 255, 255, 0.712)
+    ),
+}
+a{
+  color: #ffffff;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+}
+/*//////////////////////////////////////////////
+        Landing: Footer Section
+//////////////////////////////////////////////*/
+.footer-section{
+  height: auto;
+  background: url("../pictures/footerImg.jpg") no-repeat;
+  background-size: cover;
+}
